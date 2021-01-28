@@ -313,3 +313,25 @@ h2 {
     width: 18rem;
     margin-bottom: 6rem;
 }
+
+/** CONTACT */
+
+.contact {
+    max-width: 320px;
+    margin: 0 auto 6rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-content input {
+    width: 100%;
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid var(--color-gray--light);
+}
+
+.contact-content input::placeholder {
+    color: var(--color-black);
+    font-weight: bold;
+}
